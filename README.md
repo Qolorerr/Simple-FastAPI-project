@@ -8,14 +8,14 @@ The Banner API allows creating, updating, and deleting banner advertisements. It
 1. Install Docker on your system
 2. Clone this repository: `git clone https://github.com/Qolorerr/Simple-FastAPI-project.git banner_api`
 3. Build the Docker image: `docker build -t banner-api .`
-4. Run the Docker container: `docker run -p 80:80 banner-api`
-The API will now be available on port 80 of your Docker host.
+4. Run the Docker container: `docker run -p 8000:8000 banner-api`
+The API will now be available on port 8000 of your Docker host.
 
 ## Configuration
 The database file is defined using the DB_PATH environment variable inside the Docker container.
 
 ## Usage
-You can now make requests to the API running inside the Docker container on port 80.
+You can now make requests to the API running inside the Docker container on port 8000.
 
 ## API Documentation
 [api.yaml](https://github.com/avito-tech/backend-trainee-assignment-2024/blob/main/api.yaml)
